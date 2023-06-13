@@ -1,11 +1,11 @@
 {
+  "presets": ["next/babel"],
 
   "extends": [
     "eslint:recommended",
     "next/core-web-vitals",
     "plugin:react/recommended",
-    "plugin:@next/next/recommended",
-"next"
+    "plugin:@next/next/recommended"
   ],
   
   "rules": {
