@@ -1,8 +1,13 @@
 {
+  "presets": ["next/babel"],
+
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended"
+    "next/core-web-vitals",
+    "plugin:react/recommended",
+    "plugin:@next/next/recommended"
   ],
+  
   "rules": {
     "semi": ["error", "always"],
     "quotes": ["error", "double"]
