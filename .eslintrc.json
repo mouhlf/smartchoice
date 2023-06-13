@@ -1,4 +1,10 @@
 {
-  "presets": ["next/babel"],
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"]
+  }
 }
