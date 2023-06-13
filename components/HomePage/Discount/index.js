@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Box, Typography } from "@mui/material";
-import bg from "assets/bg.svg";
 
 import { getProductDiscount } from "pages/api/endpoints";
 
@@ -28,7 +27,7 @@ const Discount = () => {
         borderRadius: 1,
         flexShrink: 0,
         width: "100%",
-        backgroundImage: `url(${bg.src})`,
+        backgroundImage: `url(/assets/bg.svg)`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "50% 55%",
         backgroundColor: "#F2F3F5",
