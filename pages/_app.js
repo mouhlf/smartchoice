@@ -1,10 +1,10 @@
 import "@/styles/globals.css";
-import ThemeComponent from "pages/@core/theme/ThemeComponent";
+import ThemeComponent from "@core/theme/ThemeComponent";
 import {
   SettingsConsumer,
   SettingsProvider,
-} from "pages/@core/context/settingsContext";
-import { createEmotionCache } from "pages/@core/utils/create-emotion-cache";
+} from "@core/context/settingsContext";
+import { createEmotionCache } from "@core/utils/create-emotion-cache";
 
 
 import { SessionProvider } from "next-auth/react"

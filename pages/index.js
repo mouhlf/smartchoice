@@ -12,7 +12,7 @@ import Discount from "components/HomePage/Discount";
 import ProductContainer from "components/ProductContainer";
 
 
-import { createEmotionCache } from "pages/@core/utils/create-emotion-cache";
+import { createEmotionCache } from "@core/utils/create-emotion-cache";
 
 const clientSideEmotionCache = createEmotionCache();
 
